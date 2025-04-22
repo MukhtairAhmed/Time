@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    body{
+    background: yellowgreen;
+    }
+    
+    #clock h1{
+        display: contents;
+        font-weight: bold;
+        font-size: 30px;
+    } 
+    
+    #clock {
+        position: relative;
+        top: 230px;
+        z-index: -4;
+        background: teal;
+        height: 50px;
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 10px;
+        line-height: 50px;
+    }
+    
+    
